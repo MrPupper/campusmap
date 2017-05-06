@@ -1,0 +1,263 @@
+
+header {
+    width: 100%;
+    height: 60px;
+    
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    
+    background: #4286f4;
+    cursor: pointer;
+}
+
+header h1 {
+    float: right;
+    width: 80%;
+    margin-top: 17px;
+    
+    font-size: 1.2em;
+    color: #ffffff;
+}
+
+header img {
+    height: 13px;
+    
+    float: left;
+    width: 20%;
+    margin-top: 23px;
+    
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
+}
+
+nav {
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    z-index: 90;
+    
+    background: #2d61b5;
+}
+
+nav li {
+    padding: 15px 25px;
+    border-bottom: 1px solid #4286f4;
+    
+    list-style-type: none;
+}
+
+nav a:link,
+nav a:hover,
+nav a:visited,
+nav a:active {
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+nav a:link,
+nav a:visited {
+    color: #ffffff;
+}
+
+nav a:hover,
+nav a:active {
+    color: #93bcff;
+}
+
+
+
+nav img {
+    width: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.hide {
+    display: none;
+}
+
+nav p {
+    padding: 10px 20px;
+    
+    line-height: 1.7;
+    color: #8faad6;
+    font-size: 0.6em;
+}
+
+#wrapper {
+    margin-top: 60px;
+    padding: 20px;
+    
+    filter: brightness(1);
+    transition: all 0.3s ease;
+}
+
+html {
+    background: #f9f9f9;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 0.8em;
+    color: #083f1f;
+    
+    margin-bottom: 10px;
+}
+
+ul.list li {
+    list-style-position: inside;
+    list-style-type: inherit;
+    
+    font-size: 0.8em;
+}
+
+section ul li {
+    list-style-type: none;
+}
+
+input {
+    display: block;
+}
+
+input[type=text],
+input[type=password] {
+    margin: 10px 0;
+    padding: 10px 20px;
+    border: 1px solid #bfbfbf;
+    
+    width: calc(100% - 40px);
+    
+    transition: all 0.3s ease;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    border: 1px solid #1b86c4;
+}
+
+.button {
+    padding: 8px 19px;
+    
+    background: #4286f4;
+    color: #ffffff;
+    
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+    background: #5190f7;
+}
+
+#frmLogin .button,
+#frmCreate .button {
+    margin-top: 20px;
+}
+
+#frmLogin,
+#frmCreate {
+    margin-top: 30px;
+}
+
+p.failed,
+#srchFailed {
+    margin-bottom: 10px;
+    
+    color: #a51212;
+    font-size: 0.8em;
+    font-weight: 800;
+}
+
+#insecure {
+    margin: 20px 0;
+    color: #a0a0a0;
+}
+
+#frmCreate input.button {
+    margin;
+}
+
+#frmCreate p {
+    margin-top: 25px;
+}
+
+div.separator {
+    height: 30px;
+}
+
+
+
+#courseresults {
+    margin-top: 30px;
+}
+
+#courseresults li {
+    margin: 10px 0;
+    padding: 10px 15px;
+    background: #d6eeff;
+    
+    cursor: pointer;
+    list-style-type: none;
+    transition: all 0.3s ease;
+}
+
+#courseresults p {
+    margin: 5px 0;
+}
+
+#courseresults p.courseTitle {
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+#courseresults div.courseSelect {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    
+    border: 2px solid #9ecced;
+    border-radius: 50%;
+    background: none;
+    
+    transition: all 0.3s ease;
+}
+
+
+
+
+
+section h1 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+section p {
+    line-height: 1.6;
+}
+
+section:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 80;
+    
+    width: 100%;
+    height: 100%;
+    
+    background: rgba(0,0,0,0.6);
+    cursor: wait;
+}
+
+#loader img {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    width: 60px;
+}
